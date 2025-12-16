@@ -46,6 +46,22 @@ export function ExperienceSection() {
   ];
 
   const education = [
+   {
+      degree: "Desarrollador Full Stack Web",
+      institution: "Henry Bootcamp",
+      period: "2024 - 2025",
+      type: "Bootcamp Intensivo",
+      description:
+        "Programa de 800 horas teórico-prácticas enfocado en el desarrollo web moderno y tecnologías Full Stack.",
+      achievements: [
+        "Desarrollo de APIs REST con Node.js, Express y NestJS.",
+        "Manejo de bases de datos PostgreSQL con TypeORM.",
+        "Autenticación con JWT y buenas prácticas en arquitectura backend.",
+        "Participación como Teaching Assistant.",
+      ],
+      color: "from-yellow-500 to-orange-500",
+    },
+
     {
       degree: "Licenciado en Tecnología de la Información (CCC)",
       institution: "Universidad de Palermo",
@@ -91,21 +107,7 @@ export function ExperienceSection() {
       color: "from-zinc-700 to-blue-500",
     },
 
-    {
-      degree: "Desarrollador Full Stack Web",
-      institution: "Henry Bootcamp",
-      period: "2024 - 2025",
-      type: "Bootcamp Intensivo",
-      description:
-        "Programa de 800 horas teórico-prácticas enfocado en el desarrollo web moderno y tecnologías Full Stack.",
-      achievements: [
-        "Desarrollo de APIs REST con Node.js, Express y NestJS.",
-        "Manejo de bases de datos PostgreSQL con TypeORM.",
-        "Autenticación con JWT y buenas prácticas en arquitectura backend.",
-        "Participación como Teaching Assistant.",
-      ],
-      color: "from-yellow-500 to-orange-500",
-    },
+ 
   ];
 
   return (
