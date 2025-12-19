@@ -46,7 +46,7 @@ export function ExperienceSection() {
   ];
 
   const education = [
-   {
+    {
       degree: "Desarrollador Full Stack Web",
       institution: "Henry Bootcamp",
       period: "2024 - 2025",
@@ -106,8 +106,6 @@ export function ExperienceSection() {
       ],
       color: "from-zinc-700 to-blue-500",
     },
-
- 
   ];
 
   return (
