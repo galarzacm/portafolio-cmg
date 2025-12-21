@@ -2,22 +2,30 @@
 import { motion } from "motion/react";
 
 const certifications = [
-
   { title: "Desarrollo Web Full Stack", image: "/SoyHenry.jpg" },
-  { title: "Introducción a la programación con Python", image: "/Introducción a la programación con Python.jpg" },
+  {
+    title: "Introducción a la programación con Python",
+    image: "/Introducción a la programación con Python.jpg",
+  },
   { title: "Excel Skills for Business: Essentials", image: "/Excel1.jpg" },
   { title: "Excel Skills for Business: Intermediate I", image: "/Excel2.jpg" },
   { title: "Auxiliar_en_Programacion", image: "/Auxiliar_en_Programacion.jpg" },
   { title: "Administracion Financiera", image: "/Admin_Financiera.jpg" },
- 
+  {
+    title: "English_EF_SET_Certificate",
+    image: "/English_EF_SET_Certificate.jpg",
+  },
 ];
 
 export function CertificationsSection() {
   // Duplicamos para crear efecto infinito
-  const duplicatedCertifications = [...certifications, ...certifications,];
+  const duplicatedCertifications = [...certifications, ...certifications];
 
   return (
-    <section id="certifications" className="py-20 px-6 relative overflow-hidden">
+    <section
+      id="certifications"
+      className="py-20 px-6 relative overflow-hidden"
+    >
       <div className="max-w-6xl mx-auto">
         {/* Encabezado */}
         <motion.div
@@ -55,13 +63,15 @@ export function CertificationsSection() {
             <div
               className="absolute left-0 top-0 bottom-0 z-10 w-24"
               style={{
-                background: "linear-gradient(to right, var(--card), transparent)",
+                background:
+                  "linear-gradient(to right, var(--card), transparent)",
               }}
             />
             <div
               className="absolute right-0 top-0 bottom-0 z-10 w-24"
               style={{
-                background: "linear-gradient(to left, var(--card), transparent)",
+                background:
+                  "linear-gradient(to left, var(--card), transparent)",
               }}
             />
 
