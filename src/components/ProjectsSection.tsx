@@ -60,7 +60,7 @@ export function ProjectsSection() {
       type: "e-commerce",
       icon: Monitor,
       gradient: "var(--gradient-accent)",
-      demoLink: "#",
+      demoLink: "https://ecommerce-back-1-sozk.onrender.com/api",
       githubLink: "https://github.com/pi-rym/PM4BE-galarzacm",
       backLink: "#",
       
